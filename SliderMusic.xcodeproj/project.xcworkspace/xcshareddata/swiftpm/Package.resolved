@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AlertToast",
+        "repositoryURL": "https://github.com/elai950/AlertToast",
+        "state": {
+          "branch": "master",
+          "revision": "5fa08f380cecc5c9d44153beea22566a646d4e12",
+          "version": null
+        }
+      },
+      {
+        "package": "IrregularGradient",
+        "repositoryURL": "https://github.com/joogps/IrregularGradient",
+        "state": {
+          "branch": "main",
+          "revision": "0e61dddde5d42806fab3b6254217fe05a4c551aa",
+          "version": null
+        }
+      },
+      {
+        "package": "Marquee",
+        "repositoryURL": "https://github.com/SwiftUIKit/Marquee",
+        "state": {
+          "branch": null,
+          "revision": "69d7b7c6c34ed41d9299cfa8406f91f529c4fef3",
+          "version": "0.3.0"
+        }
+      },
+      {
+        "package": "SwimplyPlayIndicator",
+        "repositoryURL": "https://github.com/obrhoff/SwimplyPlayIndicator",
+        "state": {
+          "branch": null,
+          "revision": "d511ae7b95f456328a48182b62a0d58d5bc571a2",
+          "version": "1.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

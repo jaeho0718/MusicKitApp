@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A670167526C64113008BD706 /* SystemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A670167426C64113008BD706 /* SystemViewModel.swift */; };
+		A670167826C6526E008BD706 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = A670167726C6526E008BD706 /* AlertToast */; };
+		A670168226C6705A008BD706 /* HeartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A670168126C6705A008BD706 /* HeartButton.swift */; };
 		A67979E126C4F31F00ABCCF4 /* SliderMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67979E026C4F31F00ABCCF4 /* SliderMusicApp.swift */; };
 		A67979E326C4F31F00ABCCF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67979E226C4F31F00ABCCF4 /* ContentView.swift */; };
 		A67979E526C4F32000ABCCF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67979E426C4F32000ABCCF4 /* Assets.xcassets */; };
 		A67979E826C4F32000ABCCF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67979E726C4F32000ABCCF4 /* Preview Assets.xcassets */; };
+		A67979EF26C4F3ED00ABCCF4 /* MusicSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67979EE26C4F3ED00ABCCF4 /* MusicSearchView.swift */; };
+		A67979F126C4F41700ABCCF4 /* RecommendThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67979F026C4F41700ABCCF4 /* RecommendThemeView.swift */; };
+		A695607126C507A500DC34AA /* AlbumListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A695607026C507A500DC34AA /* AlbumListCell.swift */; };
+		A695607626C508D700DC34AA /* IrregularGradient in Frameworks */ = {isa = PBXBuildFile; productRef = A695607526C508D700DC34AA /* IrregularGradient */; };
+		A6A664F226C61B8700BC5BD0 /* AlbumDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A664F126C61B8700BC5BD0 /* AlbumDetail.swift */; };
+		A6A664F426C6279B00BC5BD0 /* PlayingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A664F326C6279B00BC5BD0 /* PlayingBar.swift */; };
+		A6A664F626C629C700BC5BD0 /* PlayingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A664F526C629C700BC5BD0 /* PlayingDetailView.swift */; };
+		A6C7DA1426C74F3F00393B36 /* Marquee in Frameworks */ = {isa = PBXBuildFile; productRef = A6C7DA1326C74F3F00393B36 /* Marquee */; };
+		A6C7DA1726C7707A00393B36 /* ArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7DA1626C7707A00393B36 /* ArtistView.swift */; };
+		A6C7DA1A26C7743300393B36 /* SwimplyPlayIndicator in Frameworks */ = {isa = PBXBuildFile; productRef = A6C7DA1926C7743300393B36 /* SwimplyPlayIndicator */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A670167426C64113008BD706 /* SystemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemViewModel.swift; sourceTree = "<group>"; };
+		A670168126C6705A008BD706 /* HeartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartButton.swift; sourceTree = "<group>"; };
 		A67979DD26C4F31F00ABCCF4 /* SliderMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67979E026C4F31F00ABCCF4 /* SliderMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderMusicApp.swift; sourceTree = "<group>"; };
 		A67979E226C4F31F00ABCCF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A67979E426C4F32000ABCCF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A67979E726C4F32000ABCCF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A67979EE26C4F3ED00ABCCF4 /* MusicSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSearchView.swift; sourceTree = "<group>"; };
+		A67979F026C4F41700ABCCF4 /* RecommendThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendThemeView.swift; sourceTree = "<group>"; };
+		A695607026C507A500DC34AA /* AlbumListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListCell.swift; sourceTree = "<group>"; };
+		A6A664F126C61B8700BC5BD0 /* AlbumDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetail.swift; sourceTree = "<group>"; };
+		A6A664F326C6279B00BC5BD0 /* PlayingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingBar.swift; sourceTree = "<group>"; };
+		A6A664F526C629C700BC5BD0 /* PlayingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingDetailView.swift; sourceTree = "<group>"; };
+		A6C7DA1626C7707A00393B36 /* ArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +48,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C7DA1A26C7743300393B36 /* SwimplyPlayIndicator in Frameworks */,
+				A695607626C508D700DC34AA /* IrregularGradient in Frameworks */,
+				A670167826C6526E008BD706 /* AlertToast in Frameworks */,
+				A6C7DA1426C74F3F00393B36 /* Marquee in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +77,11 @@
 		A67979DF26C4F31F00ABCCF4 /* SliderMusic */ = {
 			isa = PBXGroup;
 			children = (
+				A67979E426C4F32000ABCCF4 /* Assets.xcassets */,
 				A67979E026C4F31F00ABCCF4 /* SliderMusicApp.swift */,
 				A67979E226C4F31F00ABCCF4 /* ContentView.swift */,
-				A67979E426C4F32000ABCCF4 /* Assets.xcassets */,
+				A670167426C64113008BD706 /* SystemViewModel.swift */,
+				A6C7DA1526C7502C00393B36 /* View */,
 				A67979E626C4F32000ABCCF4 /* Preview Content */,
 			);
 			path = SliderMusic;
@@ -65,6 +93,21 @@
 				A67979E726C4F32000ABCCF4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6C7DA1526C7502C00393B36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A670168126C6705A008BD706 /* HeartButton.swift */,
+				A67979EE26C4F3ED00ABCCF4 /* MusicSearchView.swift */,
+				A695607026C507A500DC34AA /* AlbumListCell.swift */,
+				A67979F026C4F41700ABCCF4 /* RecommendThemeView.swift */,
+				A6A664F126C61B8700BC5BD0 /* AlbumDetail.swift */,
+				A6A664F326C6279B00BC5BD0 /* PlayingBar.swift */,
+				A6A664F526C629C700BC5BD0 /* PlayingDetailView.swift */,
+				A6C7DA1626C7707A00393B36 /* ArtistView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +126,12 @@
 			dependencies = (
 			);
 			name = SliderMusic;
+			packageProductDependencies = (
+				A695607526C508D700DC34AA /* IrregularGradient */,
+				A670167726C6526E008BD706 /* AlertToast */,
+				A6C7DA1326C74F3F00393B36 /* Marquee */,
+				A6C7DA1926C7743300393B36 /* SwimplyPlayIndicator */,
+			);
 			productName = SliderMusic;
 			productReference = A67979DD26C4F31F00ABCCF4 /* SliderMusic.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +160,12 @@
 				Base,
 			);
 			mainGroup = A67979D426C4F31F00ABCCF4;
+			packageReferences = (
+				A695607426C508D700DC34AA /* XCRemoteSwiftPackageReference "IrregularGradient" */,
+				A670167626C6526E008BD706 /* XCRemoteSwiftPackageReference "AlertToast" */,
+				A6C7DA1226C74F3F00393B36 /* XCRemoteSwiftPackageReference "Marquee" */,
+				A6C7DA1826C7743300393B36 /* XCRemoteSwiftPackageReference "SwimplyPlayIndicator" */,
+			);
 			productRefGroup = A67979DE26C4F31F00ABCCF4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +192,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A670168226C6705A008BD706 /* HeartButton.swift in Sources */,
+				A67979EF26C4F3ED00ABCCF4 /* MusicSearchView.swift in Sources */,
 				A67979E326C4F31F00ABCCF4 /* ContentView.swift in Sources */,
+				A6A664F226C61B8700BC5BD0 /* AlbumDetail.swift in Sources */,
+				A695607126C507A500DC34AA /* AlbumListCell.swift in Sources */,
+				A6A664F626C629C700BC5BD0 /* PlayingDetailView.swift in Sources */,
 				A67979E126C4F31F00ABCCF4 /* SliderMusicApp.swift in Sources */,
+				A67979F126C4F41700ABCCF4 /* RecommendThemeView.swift in Sources */,
+				A670167526C64113008BD706 /* SystemViewModel.swift in Sources */,
+				A6C7DA1726C7707A00393B36 /* ArtistView.swift in Sources */,
+				A6A664F426C6279B00BC5BD0 /* PlayingBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +336,7 @@
 				DEVELOPMENT_TEAM = 88DQM3PTQR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Apple Music use";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +367,7 @@
 				DEVELOPMENT_TEAM = 88DQM3PTQR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Apple Music use";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -343,6 +409,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A670167626C6526E008BD706 /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A695607426C508D700DC34AA /* XCRemoteSwiftPackageReference "IrregularGradient" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joogps/IrregularGradient";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A6C7DA1226C74F3F00393B36 /* XCRemoteSwiftPackageReference "Marquee" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIKit/Marquee";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+		A6C7DA1826C7743300393B36 /* XCRemoteSwiftPackageReference "SwimplyPlayIndicator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/obrhoff/SwimplyPlayIndicator";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A670167726C6526E008BD706 /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A670167626C6526E008BD706 /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+		A695607526C508D700DC34AA /* IrregularGradient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A695607426C508D700DC34AA /* XCRemoteSwiftPackageReference "IrregularGradient" */;
+			productName = IrregularGradient;
+		};
+		A6C7DA1326C74F3F00393B36 /* Marquee */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6C7DA1226C74F3F00393B36 /* XCRemoteSwiftPackageReference "Marquee" */;
+			productName = Marquee;
+		};
+		A6C7DA1926C7743300393B36 /* SwimplyPlayIndicator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6C7DA1826C7743300393B36 /* XCRemoteSwiftPackageReference "SwimplyPlayIndicator" */;
+			productName = SwimplyPlayIndicator;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A67979D526C4F31F00ABCCF4 /* Project object */;
 }
